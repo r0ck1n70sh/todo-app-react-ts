@@ -1,0 +1,31 @@
+{
+  "name": "todo-app-react-ts",
+  "version": "1.0.0",
+  "description": "todo app in react using typescript template",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "webpack .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "r0ck1n70sh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@types/node": "^20.3.2",
+    "html-webpack-plugin": "^5.5.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
